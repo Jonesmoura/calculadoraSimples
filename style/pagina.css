@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    
+}
+
+.container{
+
+    background-color: rgb(90, 35, 35);
+    width: 350px;
+    border-radius: 20px 2px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.wrapper{
+
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: white;
+    transition: 1s all;   
+
+}
+
+h1{
+
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5px;
+    
+
+}
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+
+}
+
+input{
+
+    padding: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    cursor: pointer;
+    width: 70px;
+    background-color: black;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    margin: 0.2em;
+
+}
+
+
+.primeira-fileira, .segunda-fileira, .terceira-fileira, .quarta-fileira, .quinta-fileira{
+
+    margin-bottom: 4px;
+
+}
+
+#resultado{
+
+    background-color: rgb(22, 22, 22);
+    width: 180px;
+
+}
+
+input[type='button']:hover{
+
+    background-color: rgb(36, 36, 36);
+
+}
+
+#btn-limpar{
+
+    background-color: rgb(180, 3, 3);
+
+}
+

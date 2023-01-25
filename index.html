@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
+    <link rel="shortcut icon" href="./images/icon.svg" type="image/x-icon">
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/pagina.css">
 </head>
@@ -15,28 +16,32 @@
                 <h1>Calculadora</h1>
             </div>
             <div class="primeira-fileira">
-                <input type="text" name="resultado" id="resultado" placeholder="resultado" readonly>
-                <input type="button" value="C" id="btn-limpar" onclick="resultado.value=''">
+                <input type="text" name="resultado" id="resultado" placeholder="resultado" readonly>              
             </div>
             <div class="segunda-fileira">
+                <input type="button" value="Ans" id="Ans" onclick="imprimirUltimoResultado()">
+                <input type="button" value="DEL" id="DEL" onclick="apagarUltimoDigito()">
+                <input type="button" value="C" id="btn-limpar" onclick="resultado.value=''">
+            </div>
+            <div class="terceira-fileira">
                 <input type="button" value="1" onclick="addValorclickado(1)">
                 <input type="button" value="2" onclick="addValorclickado(2)">
                 <input type="button" value="3" onclick="addValorclickado(3)">
                 <input type="button" value="+" onclick="addValorclickado('+')">
             </div>
-            <div class="terceira-fileira">
+            <div class="quarta-fileira">
                 <input type="button" value="4" onclick="addValorclickado(4)">
                 <input type="button" value="5" onclick="addValorclickado(5)">
                 <input type="button" value="6" onclick="addValorclickado(6)">
                 <input type="button" value="-" onclick="addValorclickado('-')">
             </div>
-            <div class="quarta-fileira">
+            <div class="quinta-fileira">
                 <input type="button" value="7" onclick="addValorclickado(7)">
                 <input type="button" value="8" onclick="addValorclickado(8)">
                 <input type="button" value="9" onclick="addValorclickado(9)">
                 <input type="button" value="x" onclick="addValorclickado('*')">
             </div>
-            <div class="quinta-fileira">
+            <div class="sexta-fileira">
                 <input type="button" value="/" onclick="addValorclickado('/')">
                 <input type="button" value="0" onclick="addValorclickado(0)">
                 <input type="button" value="." onclick="addValorclickado('.')">

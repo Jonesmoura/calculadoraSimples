@@ -53,7 +53,7 @@ h1{
 
 input{
 
-    padding: 25px;
+    padding: 25px 20px;
     color: rgb(255, 255, 255);
     font-size: 1rem;
     cursor: pointer;
@@ -67,7 +67,7 @@ input{
 }
 
 
-.primeira-fileira, .segunda-fileira, .terceira-fileira, .quarta-fileira, .quinta-fileira{
+.primeira-fileira, .segunda-fileira, .terceira-fileira, .quarta-fileira, .quinta-fileira, .sexta-fileira{
 
     margin-bottom: 4px;
 
@@ -75,8 +75,8 @@ input{
 
 #resultado{
 
-    background-color: rgb(22, 22, 22);
-    width: 180px;
+    background-color: rgb(44, 44, 44);
+    width: 270px;
 
 }
 
@@ -90,5 +90,17 @@ input[type='button']:hover{
 
     background-color: rgb(180, 3, 3);
 
+}
+
+#Ans{
+
+    width: 150px;
+
+}
+
+#DEL{
+
+    color: brown;
+    
 }
 

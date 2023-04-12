@@ -8,11 +8,6 @@ Calculadora simples desenvolvida em HTML CSS e JS
 * Elaboração de função para acesso do último resultado
 * Adaptações de layout(CSS)
 
-:construction: Próximas etapa:
-
-* Criação de tema claro
-* Desenvolvimento de função para alterar temas
-
 
 
 
